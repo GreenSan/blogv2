@@ -1,0 +1,32 @@
+body{
+    background-color: #000000;
+
+    /*background-image: {url(stars.jpg);*/
+    background-repeat-y: no-repeat;
+    background-size: 100% 70%;
+    color: #fff;
+}
+
+background :{
+  position: relative;
+}
+
+logos:{
+  position: absolute;
+  top: 10px;
+  right: 50%;
+}
+
+ body *{
+    font-family: Ubuntu;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: normal;
+    margin: 0;
+}
+
+a, a:hover, a:visited{
+    color: #fff;
+    text-decoration: none;
+}

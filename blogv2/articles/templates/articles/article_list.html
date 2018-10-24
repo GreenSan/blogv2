@@ -1,0 +1,21 @@
+
+{% extends 'base_layout.html' %}
+
+{% block content %}  <!-- individual contect that is uniqe for this template -->
+<div align= 'center'>
+</template>
+    <h1>
+      Article list (awesome)
+      <div class ="articles">
+        {% for article in articles %}
+          <div class="article">
+            <h6>
+              <a href ="{% url 'articles:detail' slug=article.slug %}">{{article.title}}</a>
+              <p>{{ article.snippet}}</p>
+              <p>{{ article.date}}</p>
+            </h6>
+          </div>
+        {%endfor%}
+      </div>
+    </div>
+{% endblock %}
