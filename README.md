@@ -12,5 +12,5 @@ $ cd BlogV2
 $ python manage.py runserver
 ```
 
-The server should be up and ready so just go to: http://127.0.0.1:8000/articles/
+The server should be up and ready so just go to: http://127.0.0.1:8000/articles/  
 In the future I will make it even MORE awesome, but for now this is the current version.
